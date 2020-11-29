@@ -1,0 +1,17 @@
+<html>
+    <head>
+        <title>ARRAY</title>
+    </head>
+    <body>
+        <h1>STMIK INSAN PEMBANGUNAN TELUKNAGA</h1>
+        <div id = "wrap"></div>
+
+        <script>
+            // sort, reverse, conct, length, join
+            var matakuliah = ["SISTEM OPERASI", "JAVA WEB", "PROGRAM LINUX"];
+            var dosen = ["JAIDIN", "MAHFUD", "MAULANA"];
+            var datakampus = matakuliah.concat(dosen);
+            document.getElementById("wrap").innerHTML = datakampus.join(" | ");
+        </script>
+    </body>
+</html>
